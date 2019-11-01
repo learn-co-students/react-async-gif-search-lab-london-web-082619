@@ -1,0 +1,17 @@
+.gif-container {
+    width: 100vw;
+}
+
+.gif-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.gif img {
+    margin-left: 10px;
+}
+
+.searchForm {
+    margin-bottom: 10px;
+}
