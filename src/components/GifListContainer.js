@@ -18,6 +18,7 @@ class GifListContainer extends React.Component {
             .then(json => this.setState({ gifs: json.data }))
     }
 
+
     searchGifs = (searchTerm) => {
         this.setState({
             searchTerm: searchTerm
